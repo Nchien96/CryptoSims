@@ -1,0 +1,31 @@
+{
+  "name": "CryptoSims #4",
+  "description": "Crypto Sims Collection",
+  "image": "ipfs://xxxxxxxxxxxxxx/4.png",
+  "dna": "4bd41dad5eb87ba04afd09e1499bddd0715f1aa5",
+  "edition": 4,
+  "date": 1687278616606,
+  "attributes": [
+    {
+      "trait_type": "bodies",
+      "value": "body00004"
+    },
+    {
+      "trait_type": "eyes",
+      "value": "eyes00006"
+    },
+    {
+      "trait_type": "hairstyles",
+      "value": "hairstyle00177"
+    },
+    {
+      "trait_type": "outfits",
+      "value": "outfit00086"
+    },
+    {
+      "trait_type": "accessories",
+      "value": "accessory00064"
+    }
+  ],
+  "compiler": "NXC"
+}

@@ -1,0 +1,31 @@
+{
+  "name": "CryptoSims #7",
+  "description": "Crypto Sims Collection",
+  "image": "ipfs://xxxxxxxxxxxxxx/7.png",
+  "dna": "03798c050f0765fd4c0ec42cae3d23ce5c99116e",
+  "edition": 7,
+  "date": 1687278616670,
+  "attributes": [
+    {
+      "trait_type": "bodies",
+      "value": "body00004"
+    },
+    {
+      "trait_type": "eyes",
+      "value": "eyes00002"
+    },
+    {
+      "trait_type": "hairstyles",
+      "value": "hairstyle00044"
+    },
+    {
+      "trait_type": "outfits",
+      "value": "outfit00080"
+    },
+    {
+      "trait_type": "accessories",
+      "value": "accessory00004"
+    }
+  ],
+  "compiler": "NXC"
+}
