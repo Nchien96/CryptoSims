@@ -1,11 +1,25 @@
+const Config = require("./config");
+const { ethers, hardhatArguments } = require("hardhat");
 async function main() {
+  await Config.initConfig();
+  const network = hardhatArguments.network ? hardhatArguments.network : "dev";
   const [deployer] = await ethers.getSigners();
 
-  console.log("Deploying contracts with the account:", deployer.address);
+  // CryptoSimsToken Deploy
+  console.log("deploy from address: ", deployer.address);
+  const sim = await ethers.deployContract("CryptoSims");
+  const tokenAddress = await sim.getAddress();
+  console.log("CryptoSimsToken address:", tokenAddress);
+  Config.setConfig(network + ".SimsToken", tokenAddress);
 
-  const token = await ethers.deployContract("CryptoSims");
+  //Vault Deploy
+  console.log("deploy from address: ", deployer.address);
+  const vault = await ethers.deployContract("Vault");
+  const vaultAddress = await vault.getAddress();
+  console.log("Vault Address:", vaultAddress);
+  Config.setConfig(network + ".Vault", vaultAddress);
 
-  console.log("Token address:", await token.getAddress());
+  await Config.updateConfig();
 }
 
 main()

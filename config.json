@@ -1,0 +1,8 @@
+{
+  "dev": {},
+  "bsctest": {
+    "SimsToken": "0x0776f85145d54245b6D15342c3A3D4A206e27016",
+    "Vault": "0x96888f2700ad2ad382bc5e3F2D6d8eAA820Beb4E"
+  },
+  "main": {}
+}
