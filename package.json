@@ -34,7 +34,6 @@
     "dotenv": "^16.1.4",
     "hardhat": "^2.15.0",
     "mocha": "^10.2.0",
-    "openzeppelin-solidity": "^4.6.0",
     "yarn": "^1.22.19",
     "web3": "^1.7.5",
     "canvas": "^2.8.0",

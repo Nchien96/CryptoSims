@@ -1,8 +1,10 @@
 {
   "dev": {},
   "bsctest": {
-    "SimsToken": "0x0776f85145d54245b6D15342c3A3D4A206e27016",
-    "Vault": "0x96888f2700ad2ad382bc5e3F2D6d8eAA820Beb4E"
+    "SimsToken": "0x9Da1b88881A912f27a9A76B0A4361f5a0c6B7f91",
+    "Vault": "0x7bafe7013B8A1a1c92592856C09E7c5d9BEf9297",
+    "USDT": "0x74E32A77EAeD8AA0e68EcAB1Ac16c54CffE8C33d",
+    "ICO": "0x3618d03785d46ec0B32B4f9C2B9F16EdAE284145"
   },
   "main": {}
 }
